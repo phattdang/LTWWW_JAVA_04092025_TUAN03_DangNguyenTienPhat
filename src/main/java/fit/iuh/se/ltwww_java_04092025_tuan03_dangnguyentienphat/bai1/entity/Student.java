@@ -1,4 +1,4 @@
-package fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.entity;
+package fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.bai1.entity;
 
 import java.time.LocalDate;
 

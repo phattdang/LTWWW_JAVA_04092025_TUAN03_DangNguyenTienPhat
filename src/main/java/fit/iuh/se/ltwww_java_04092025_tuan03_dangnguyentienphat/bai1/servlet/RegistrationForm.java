@@ -1,6 +1,6 @@
-package fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.servlet;
+package fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.bai1.servlet;
 
-import fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.entity.Student;
+import fit.iuh.se.ltwww_java_04092025_tuan03_dangnguyentienphat.bai1.entity.Student;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -62,8 +62,8 @@ public class RegistrationForm extends HttpServlet {
         // Set object student to request object
         request.setAttribute("student", sv);
 
-        // Forward to result-registration-form.jsp
-        RequestDispatcher rd = request.getRequestDispatcher("result-registration-form.jsp");
+        // Forward to result-course-registration-form.jsp
+        RequestDispatcher rd = request.getRequestDispatcher("result-course-registration-form.jsp");
         rd.forward(request, response);
     }
 }
